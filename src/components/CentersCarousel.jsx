@@ -9,7 +9,7 @@ const centers = [
   {
     id: 1,
     name: "HSR Layout",
-    phone: "+91 6361056456",
+    phone: "+91 6360014559",
     email: "hsr@stance.health",
     address: "2nd Floor, 1555, 19th Main Rd, Agara, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102",
     mapLink: "https://maps.app.goo.gl/ybtjB2YiqPV9yyUw6?g_st=aw",
