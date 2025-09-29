@@ -235,3 +235,6 @@ p, span, div, a, li, label, input, textarea, button {
 body {
   font-family: 'Montserrat-Bold', sans-serif !important;
 }
+
+/* Terms and Privacy Policy Styles */
+@import './terms-privacy.css';
