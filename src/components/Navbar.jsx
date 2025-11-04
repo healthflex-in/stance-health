@@ -129,20 +129,19 @@ const Navbar = () => {
                             }
                             
                         </ul>
-                        {/* <ul className="ot-nav">
+                        <ul className="ot-nav">
                             <li>
                                 {currentPath.includes('/whitefield') ? (
                                     <a href="tel:9008417804" className='main-btn flex items-center gap-2 text-[#252B4A]'>
                                         Call Now
                                     </a>
                                 ) : (
-                                    <a href="https://dashboard.stance.health/onboarding-patient" className='main-btn' target='_bla
-                                    nk' rel="noreferrer">
+                                    <a href="https://dashboard.stance.health/onboarding-patient" className='main-btn' target='_blank' rel="noreferrer">
                                         Book an Appointment
                                     </a>
                                 )}
                             </li>
-                        </ul> */}
+                        </ul>
                     </div>
                 </div>
             </div>
