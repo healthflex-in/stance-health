@@ -175,9 +175,9 @@ const Navbar = () => {
                     </li>
                 ) : (
                     <li>
-                        <Link href="/book-now" onClick={()=>setMenuClose(false)} className='text-white hover:text-[#CDFE71] transition-colors py-2'>
+                        <a href="https://dashboard.stance.health/onboarding-patient" target='_blank' rel="noreferrer" onClick={()=>setMenuClose(false)} className='text-white hover:text-[#CDFE71] transition-colors py-2'>
                             Book an Appointment
-                        </Link>
+                        </a>
                     </li>
                 )}
             </ul>
