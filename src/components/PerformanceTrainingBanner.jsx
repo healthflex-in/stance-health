@@ -9,7 +9,7 @@ const PerformanceTrainingBanner = () => {
     {
       title: 'Breaking <span>barriers</span>',
       description: "At Stance, our mission is to offer tailored Performance Enhancement Programs to boost your fitness and foster lifelong habits for an active lifestyle.<br />Let’s ensure you level up!",
-      buttonLink: "/book-now",
+      buttonLink: "https://dashboard.stance.health/onboarding-patient",
       buttonLabel: "Book an Appointment",
       image: "/assets/images/pt-banner.svg",
       mobileImage: "/assets/images/pt-banner.svg",

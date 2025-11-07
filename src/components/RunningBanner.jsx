@@ -9,7 +9,7 @@ const RunningBanner = () => {
     {
       title: 'In Your <span>Stride</span>',
       description: "At Stance, we're committed to supporting you as you pursue your running objectives and perform at your best.<br />Let’s ensure we help you tackle that leap",
-      buttonLink: "/book-now",
+      buttonLink: "https://dashboard.stance.health/onboarding-patient",
       buttonLabel: "Book an Appointment",
       image: "/assets/images/running-banner.png",
       mobileImage: "/assets/images/running-banner.png",
