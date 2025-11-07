@@ -8,7 +8,7 @@ const AboutBanner = () => {
     {
       title: 'Ready to Take a <span>Stance?</span>',
       description: "<p>Meet our team at Stance, where pain meets resilience and goals become reality. Join us to conquer pain and meet your goals with personalized, expert-led programs.</p>",
-      buttonLink: "/book-now",
+      buttonLink: "https://dashboard.stance.health/onboarding-patient",
       buttonLabel: "Book an Appointment",
       image: "/assets/images/about-banner.svg",
       mobileImage: "/assets/images/about-banner.svg",

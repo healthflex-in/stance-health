@@ -9,7 +9,7 @@ const InjuryManagementBanner = () => {
     {
       title: 'Prevention & <span>Recovery</span>',
       description: "Let's Secure Your Journey of Resilience and Healing. At Stance, our advanced pain management programs help you avoid injuries and heal swiftly, so you can resume your daily activities.",
-      buttonLink: "/book-now",
+      buttonLink: "https://dashboard.stance.health/onboarding-patient",
       buttonLabel: "Book an Appointment",
       image: "/assets/images/im-banner.svg",
       mobileImage: "/assets/images/im-banner.svg",

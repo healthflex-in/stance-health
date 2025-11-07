@@ -80,9 +80,9 @@ const SurgicalRehabPage = () => {
               </div>
             </div>
             <div className='col-md-3 offset-md-1 right'>
-            <Link href="/book-now" className='main-btn big'>
+            <a href="https://dashboard.stance.health/onboarding-patient" target="_blank" rel="noreferrer" className='main-btn big'>
                                 <span>Book Now</span>
-                            </Link>
+                            </a>
             </div>
           </div>
         </div>
