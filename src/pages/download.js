@@ -1,6 +1,6 @@
 const ANDROID_URL = 'https://play.google.com/store/apps/details?id=com.stance.health'
 const IOS_URL = 'https://apps.apple.com/us/app/stance-health/id6757695513'
-const WEBSITE_URL = 'https://www.stance.health'
+const WEBSITE_URL = 'https://www.stance.health/qr'
 
 export default function DownloadPage() {
   return null
