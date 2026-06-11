@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { useState } from 'react';
 
 const sections = [
@@ -24,7 +25,12 @@ export default function TermsAndConditions() {
   };
 
   return (
-    <div className="main-wrapper" style={{ paddingTop: '120px' }}>
+    <>
+      <Head>
+        <title>Terms &amp; Conditions — Stance Health</title>
+        <meta name="description" content="Read Stance Health's Terms and Conditions including cancellation, refund, and package validity policies." />
+      </Head>
+      <div className="main-wrapper" style={{ paddingTop: '120px' }}>
 
       <section className="inner-banner">
         <div className="container">
@@ -379,5 +385,6 @@ export default function TermsAndConditions() {
         }
       `}</style>
     </div>
+    </>
   );
 }

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { useState } from 'react';
 
 const sections = [
@@ -27,7 +28,12 @@ export default function PrivacyPolicy() {
   };
 
   return (
-    <div className="main-wrapper" style={{ paddingTop: '120px' }}>
+    <>
+      <Head>
+        <title>Privacy Policy — Stance Health</title>
+        <meta name="description" content="Read how Stance Health collects, uses, and protects your personal and health information." />
+      </Head>
+      <div className="main-wrapper" style={{ paddingTop: '120px' }}>
       {/* Hero Banner */}
       <section className="inner-banner">
         <div className="container">
@@ -552,5 +558,6 @@ export default function PrivacyPolicy() {
         }
       `}</style>
     </div>
+    </>
   );
 }

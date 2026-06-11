@@ -1,6 +1,13 @@
+import Head from 'next/head';
+
 export default function PatientConsentWaiver() {
   return (
-    <div className="main-wrapper" style={{ paddingTop: '120px' }}>
+    <>
+      <Head>
+        <title>Patient Consent &amp; Waiver — Stance Health</title>
+        <meta name="description" content="Read the Stance Health patient consent and waiver before beginning your care." />
+      </Head>
+      <div className="main-wrapper" style={{ paddingTop: '120px' }}>
 
       <section className="inner-banner">
         <div className="container">
@@ -128,5 +135,6 @@ export default function PatientConsentWaiver() {
         }
       `}</style>
     </div>
+    </>
   );
 }

@@ -1,6 +1,13 @@
+import Head from 'next/head';
+
 export default function DoctorDisclaimer() {
   return (
-    <div className="main-wrapper" style={{ paddingTop: '120px' }}>
+    <>
+      <Head>
+        <title>Doctor Disclaimer — Stance Health</title>
+        <meta name="description" content="Important information about independent orthopaedic consultations at Stance Health." />
+      </Head>
+      <div className="main-wrapper" style={{ paddingTop: '120px' }}>
 
       <section className="inner-banner">
         <div className="container">
@@ -150,5 +157,6 @@ export default function DoctorDisclaimer() {
         }
       `}</style>
     </div>
+    </>
   );
 }
