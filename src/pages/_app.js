@@ -58,7 +58,7 @@ function App({ Component, pageProps }) {
           property="og:image"
           content="https://www.stance.health/assets/images/og.jpg"
         />
-        <GoogleTagManager gtmId="GTM-KBBN732J" />
+        <GoogleTagManager gtmId="GTM-NZH8NDC8" />
       </Head>
       <ButtonEffect />
       <Navbar />
@@ -68,7 +68,7 @@ function App({ Component, pageProps }) {
       <Footer />
       <Analytics />
       <SpeedInsights />
-      <GoogleAnalytics gaId="G-DZWCZWH78P" />
+      <GoogleAnalytics gaId="G-6XE7C2DE3R" />
     </>
   );
 }
