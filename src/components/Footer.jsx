@@ -64,7 +64,7 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <a href="https://book.stance.health/stance-health" target='_blank' rel="noreferrer">
+                                <a href="https://dashboard.stance.health/onboarding-patient?utm_source=website&utm_medium=cta&utm_campaign=website_booking" target='_blank' rel="noreferrer">
                                 Book an Appointment
                                 </a>
                             </li>
