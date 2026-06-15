@@ -94,12 +94,22 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Link href="/terms-and-conditions">
-                                Terms & Conditions
+                                Terms &amp; Conditions
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/privacy-policy">
                                 Privacy Policy
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/patient-consent-waiver">
+                                Patient Consent
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/doctor-disclaimer">
+                                Doctor Disclaimer
                                 </Link>
                             </li>
                         </ul>
