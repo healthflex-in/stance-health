@@ -1,0 +1,62 @@
+{
+  "slug": "performance-training",
+  "title": "Breaking Barriers",
+  "seo": {
+    "title": "Breaking Barriers",
+    "description": "Evidence-based strength and conditioning to elevate athletic performance and build lasting active habits.",
+    "canonical": "/performance-training"
+  },
+  "blocks": [
+    {
+      "id": "performance-training-hero",
+      "type": "PageHero",
+      "props": {
+        "description": "Evidence-based strength and conditioning to elevate athletic performance and build lasting active habits.",
+        "eyebrow": "Program",
+        "headline": "Breaking",
+        "highlight": "Barriers"
+      }
+    },
+    {
+      "id": "performance-training-section-1",
+      "type": "PageSection",
+      "props": {
+        "body": "Tailored performance enhancement programmes built around your goals and measured objectively.",
+        "heading": "Programme Overview"
+      }
+    },
+    {
+      "id": "performance-training-section-2",
+      "type": "PageSection",
+      "props": {
+        "body": "Risk management, progress tracking, interdisciplinary plans, and customised training.",
+        "heading": "Programme Benefits"
+      }
+    },
+    {
+      "id": "performance-training-section-3",
+      "type": "PageSection",
+      "props": {
+        "body": "Baseline assessment, progressive overload, reassessment, and habit-building support.",
+        "heading": "What You Can Expect"
+      }
+    },
+    {
+      "id": "performance-training-section-4",
+      "type": "PageSection",
+      "props": {
+        "body": "Support for general fitness, endurance, sport performance, lifestyle health, and post-rehab fitness.",
+        "heading": "Who This Programme Is For"
+      }
+    },
+    {
+      "id": "performance-training-section-5",
+      "type": "PageSection",
+      "props": {
+        "body": "Start your performance journey.",
+        "heading": "Ready to Get Started?"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

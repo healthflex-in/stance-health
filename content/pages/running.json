@@ -1,0 +1,62 @@
+{
+  "slug": "running",
+  "title": "In Your Stride",
+  "seo": {
+    "title": "In Your Stride",
+    "description": "Technology-backed running analysis and rehabilitation for grassroots to elite runners.",
+    "canonical": "/running"
+  },
+  "blocks": [
+    {
+      "id": "running-hero",
+      "type": "PageHero",
+      "props": {
+        "description": "Technology-backed running analysis and rehabilitation for grassroots to elite runners.",
+        "eyebrow": "Program",
+        "headline": "In Your",
+        "highlight": "Stride"
+      }
+    },
+    {
+      "id": "running-section-1",
+      "type": "PageSection",
+      "props": {
+        "body": "A running programme designed around objective movement data and individual goals.",
+        "heading": "Programme Overview"
+      }
+    },
+    {
+      "id": "running-section-2",
+      "type": "PageSection",
+      "props": {
+        "body": "Prepare for races, reduce injury risk, improve efficiency, and return to running with confidence.",
+        "heading": "Why Join Our Running Programme?"
+      }
+    },
+    {
+      "id": "running-section-3",
+      "type": "PageSection",
+      "props": {
+        "body": "Running gait analysis, objective strength testing, and a personalised strength and conditioning plan.",
+        "heading": "What You Can Expect"
+      }
+    },
+    {
+      "id": "running-section-4",
+      "type": "PageSection",
+      "props": {
+        "body": "Support for common running injuries and movement-related concerns.",
+        "heading": "Conditions We Treat"
+      }
+    },
+    {
+      "id": "running-section-5",
+      "type": "PageSection",
+      "props": {
+        "body": "Start your running journey with an objective assessment.",
+        "heading": "Ready to Get Started?"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

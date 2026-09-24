@@ -1,0 +1,36 @@
+{
+  "slug": "template-testing",
+  "title": "templateee",
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "blocks": [
+    {
+      "id": "abouthero_0",
+      "type": "AboutHero",
+      "props": {}
+    },
+    {
+      "id": "aboutmission_1",
+      "type": "AboutMission",
+      "props": {}
+    },
+    {
+      "id": "aboutvalues_2",
+      "type": "AboutValues",
+      "props": {}
+    },
+    {
+      "id": "aboutteam_3",
+      "type": "AboutTeam",
+      "props": {}
+    },
+    {
+      "id": "aboutcta_4",
+      "type": "AboutCta",
+      "props": {}
+    }
+  ],
+  "schemaVersion": 1
+}

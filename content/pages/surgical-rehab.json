@@ -1,0 +1,62 @@
+{
+  "slug": "surgical-rehab",
+  "title": "Back on Your Feet",
+  "seo": {
+    "title": "Back on Your Feet",
+    "description": "Specialised pre- and post-operative rehabilitation to restore function, movement, and confidence.",
+    "canonical": "/surgical-rehab"
+  },
+  "blocks": [
+    {
+      "id": "surgical-rehab-hero",
+      "type": "PageHero",
+      "props": {
+        "description": "Specialised pre- and post-operative rehabilitation to restore function, movement, and confidence.",
+        "eyebrow": "Program",
+        "headline": "Back on Your",
+        "highlight": "Feet"
+      }
+    },
+    {
+      "id": "surgical-rehab-section-1",
+      "type": "PageSection",
+      "props": {
+        "body": "Milestone-based rehabilitation tailored to your surgery and recovery goals.",
+        "heading": "Programme Overview"
+      }
+    },
+    {
+      "id": "surgical-rehab-section-2",
+      "type": "PageSection",
+      "props": {
+        "body": "Preparation, data-informed pathways, manual therapy, mobility, and strength development.",
+        "heading": "Our Surgical Rehab Programme"
+      }
+    },
+    {
+      "id": "surgical-rehab-section-3",
+      "type": "PageSection",
+      "props": {
+        "body": "Technology-based tracking, coordinated care, and ongoing recovery support.",
+        "heading": "What You Can Expect"
+      }
+    },
+    {
+      "id": "surgical-rehab-section-4",
+      "type": "PageSection",
+      "props": {
+        "body": "Support for ACL, meniscus, joint replacement, shoulder, hip, and ankle procedures.",
+        "heading": "Surgeries We Support"
+      }
+    },
+    {
+      "id": "surgical-rehab-section-5",
+      "type": "PageSection",
+      "props": {
+        "body": "Book your pre- or post-operative assessment.",
+        "heading": "Ready to Get Started?"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
