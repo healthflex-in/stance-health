@@ -1,0 +1,12 @@
+{
+  "slug": "test",
+  "title": "HUI HUI",
+  "seo": {
+    "title": "hui hui",
+    "description": "this is a test page",
+    "canonical": "/testt",
+    "noIndex": true
+  },
+  "blocks": [],
+  "schemaVersion": 1
+}
