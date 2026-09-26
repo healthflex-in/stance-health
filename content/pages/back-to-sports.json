@@ -1,0 +1,62 @@
+{
+  "slug": "back-to-sports",
+  "title": "Reclaim Your Game",
+  "seo": {
+    "title": "Reclaim Your Game",
+    "description": "Evidence-based return-to-play rehabilitation and performance testing for athletes after injury.",
+    "canonical": "/back-to-sports"
+  },
+  "blocks": [
+    {
+      "id": "back-to-sports-hero",
+      "type": "PageHero",
+      "props": {
+        "description": "Evidence-based return-to-play rehabilitation and performance testing for athletes after injury.",
+        "eyebrow": "Program",
+        "headline": "Reclaim Your",
+        "highlight": "Game"
+      }
+    },
+    {
+      "id": "back-to-sports-section-1",
+      "type": "PageSection",
+      "props": {
+        "body": "A customised recovery pathway for a safe return to sport-specific performance.",
+        "heading": "Programme Overview"
+      }
+    },
+    {
+      "id": "back-to-sports-section-2",
+      "type": "PageSection",
+      "props": {
+        "body": "Assessment, pain management, mobility, workload monitoring, and enhanced performance.",
+        "heading": "Our Return-to-Play Approach"
+      }
+    },
+    {
+      "id": "back-to-sports-section-3",
+      "type": "PageSection",
+      "props": {
+        "body": "Objective milestones and ongoing monitoring through the full recovery journey.",
+        "heading": "What You Can Expect"
+      }
+    },
+    {
+      "id": "back-to-sports-section-4",
+      "type": "PageSection",
+      "props": {
+        "body": "Support for ACL, meniscus, ankle, shoulder, and overuse injuries.",
+        "heading": "Conditions We Treat"
+      }
+    },
+    {
+      "id": "back-to-sports-section-5",
+      "type": "PageSection",
+      "props": {
+        "body": "Book your return-to-play assessment.",
+        "heading": "Ready to Get Started?"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
