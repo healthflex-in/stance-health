@@ -32,6 +32,21 @@ function resolveVideoUrl(explicit: string, fallbackSource: unknown) {
   return previewAsset(fallbackSource, DEFAULT_VIDEO);
 }
 
+// Optional portrait video for phones. Anything that is not a real video address is
+// ignored, so the main video keeps playing on every screen.
+function resolveMobileVideoUrl(value: unknown) {
+  const explicit = typeof value === "string" ? value.trim() : "";
+  if (!explicit || explicit.startsWith("/placeholders/")) return "";
+  if (!explicit.startsWith("/assets/") && !/^https?:\/\//i.test(explicit)) return "";
+  return isStillMedia(explicit) ? "" : explicit;
+}
+
+function videoMimeType(src: string) {
+  if (/\.mov(\?|$)/i.test(src)) return "video/quicktime";
+  if (/\.webm(\?|$)/i.test(src)) return "video/webm";
+  return "video/mp4";
+}
+
 function TrustIcon({ name }: { name: string }) {
   const props = {
     viewBox: "0 0 24 24",
@@ -86,7 +101,11 @@ export default function AssessmentHero() {
   const explicitVideo = typeof hero?.videoUrl === "string" ? hero.videoUrl.trim() : "";
   const videoUrl = resolveVideoUrl(explicitVideo, hero?.videoUrl);
   const still = isStillMedia(videoUrl);
-  const videoType = /\.mov(\?|$)/i.test(videoUrl) ? "video/quicktime" : "video/mp4";
+  const videoType = videoMimeType(videoUrl);
+  const mobileVideoUrl = still ? "" : resolveMobileVideoUrl(hero?.mobileVideoUrl);
+  // Smaller WebM of the same phone video. Used only alongside the MP4, which stays as the
+  // fallback for phones that cannot play WebM.
+  const mobileWebmUrl = mobileVideoUrl ? resolveMobileVideoUrl(hero?.mobileVideoWebmUrl) : "";
 
   const mediaClass = "absolute inset-0 h-full w-full object-cover";
   const media = still ? (
@@ -102,13 +121,28 @@ export default function AssessmentHero() {
       playsInline
       preload="auto"
     >
-      <source src={videoUrl} type={videoType} />
+      {mobileVideoUrl ? (
+        <>
+          {/* The browser plays the first source whose media and type it supports, before any
+              JS runs, so a phone downloads only one file. Browsers that ignore `media` take the
+              first source, so the tablet/desktop video stays first and keeps today's behaviour.
+              Phones then try the WebM and fall back to the MP4. */}
+          <source src={videoUrl} type={videoType} media="(min-width: 768px)" />
+          {mobileWebmUrl ? <source src={mobileWebmUrl} type={videoMimeType(mobileWebmUrl)} /> : null}
+          <source src={mobileVideoUrl} type={videoMimeType(mobileVideoUrl)} />
+        </>
+      ) : (
+        <source src={videoUrl} type={videoType} />
+      )}
     </video>
   );
 
   if (left) {
     return (
-      <header className="homepage-banner academies-hero" data-preview-block="AssessmentHero">
+      <header
+        className={`homepage-banner academies-hero${mobileVideoUrl ? " has-mobile-video" : ""}`}
+        data-preview-block="AssessmentHero"
+      >
         <section className="banner-slide">
           {media}
           <div className="banner-overlay" />
