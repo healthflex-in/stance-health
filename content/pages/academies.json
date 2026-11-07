@@ -19,6 +19,7 @@
         "ctaLabel": "",
         "videoUrl": "/assets/academies-hero.mp4",
         "mobileVideoUrl": "/assets/academies-hero-mobile.mp4",
+        "mobileVideoWebmUrl": "/assets/academies-hero-mobile.webm",
         "trustLabel": "Trusted by athletes from",
         "trustItems": [
           { "label": "BCCI", "icon": "shield" },

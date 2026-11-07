@@ -42,7 +42,9 @@ function resolveMobileVideoUrl(value: unknown) {
 }
 
 function videoMimeType(src: string) {
-  return /\.mov(\?|$)/i.test(src) ? "video/quicktime" : "video/mp4";
+  if (/\.mov(\?|$)/i.test(src)) return "video/quicktime";
+  if (/\.webm(\?|$)/i.test(src)) return "video/webm";
+  return "video/mp4";
 }
 
 function TrustIcon({ name }: { name: string }) {
@@ -101,6 +103,9 @@ export default function AssessmentHero() {
   const still = isStillMedia(videoUrl);
   const videoType = videoMimeType(videoUrl);
   const mobileVideoUrl = still ? "" : resolveMobileVideoUrl(hero?.mobileVideoUrl);
+  // Smaller WebM of the same phone video. Used only alongside the MP4, which stays as the
+  // fallback for phones that cannot play WebM.
+  const mobileWebmUrl = mobileVideoUrl ? resolveMobileVideoUrl(hero?.mobileVideoWebmUrl) : "";
 
   const mediaClass = "absolute inset-0 h-full w-full object-cover";
   const media = still ? (
@@ -118,10 +123,12 @@ export default function AssessmentHero() {
     >
       {mobileVideoUrl ? (
         <>
-          {/* The browser plays the first source whose media matches, before any JS runs, so a
-              phone downloads only its own file. Browsers that ignore `media` take the first
-              source, so the tablet/desktop video stays first and keeps today's behaviour. */}
+          {/* The browser plays the first source whose media and type it supports, before any
+              JS runs, so a phone downloads only one file. Browsers that ignore `media` take the
+              first source, so the tablet/desktop video stays first and keeps today's behaviour.
+              Phones then try the WebM and fall back to the MP4. */}
           <source src={videoUrl} type={videoType} media="(min-width: 768px)" />
+          {mobileWebmUrl ? <source src={mobileWebmUrl} type={videoMimeType(mobileWebmUrl)} /> : null}
           <source src={mobileVideoUrl} type={videoMimeType(mobileVideoUrl)} />
         </>
       ) : (

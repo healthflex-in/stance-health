@@ -13,6 +13,7 @@ const ASSET_FIELDS = new Set([
   "logo",
   "videoUrl",
   "mobileVideoUrl",
+  "mobileVideoWebmUrl",
 ]);
 
 const IDENTITY_KEYS = ["name", "title", "label", "id", "slug"] as const;

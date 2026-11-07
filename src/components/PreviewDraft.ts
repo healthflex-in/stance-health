@@ -99,6 +99,7 @@ const ASSET_FIELDS = new Set([
   "logo",
   "videoUrl",
   "mobileVideoUrl",
+  "mobileVideoWebmUrl",
 ]);
 
 function normalizeDraftAssetFields(value: unknown): unknown {
