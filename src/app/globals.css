@@ -317,6 +317,10 @@ h1, h2, h3, h4, h5, h6,
   .academies-hero .banner-slide > img {
     object-position: 12% center;
   }
+  /* A portrait phone video is framed for this screen, so keep it centred. */
+  .academies-hero.has-mobile-video .banner-slide > video {
+    object-position: center;
+  }
   .academies-hero .banner-con {
     padding: 6.5rem 0 2.25rem;
   }
