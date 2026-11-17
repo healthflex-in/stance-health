@@ -98,7 +98,7 @@ export function BlogBodySection({ article }: { article: BlogArticleData | null }
   })));
   return (
     <section className="pb-4" data-preview-block="BlogBody">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4 [&_a]:text-[#cdfe71] [&_a]:no-underline [&_a:hover]:text-[#cdfe71]/80 [&_a]:transition-colors">
         {sections.map((section, index) => {
           const content = previewString(section.content, "");
           if (section.type === "heading") {

@@ -55,7 +55,7 @@ function RichText({ html }: { html: string }) {
   return (
     <span
       dangerouslySetInnerHTML={{ __html: html }}
-      className="[&_a]:text-[#cdfe71] [&_a]:underline [&_a]:underline-offset-2 [&_a:hover]:text-[#cdfe71]/80 [&_a]:transition-colors"
+      className="[&_a]:text-[#cdfe71] [&_a]:no-underline [&_a:hover]:text-[#cdfe71]/80 [&_a]:transition-colors"
     />
   );
 }
