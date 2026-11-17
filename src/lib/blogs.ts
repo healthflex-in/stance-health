@@ -7,8 +7,10 @@ import { listPublishedPages } from "@/lib/published-page";
 export type BlogSection =
   | { type: "paragraph"; content: string }
   | { type: "heading"; content: string }
+  | { type: "subheading"; content: string }
   | { type: "tip"; content: string }
-  | { type: "list"; items: string[] };
+  | { type: "list"; items: string[] }
+  | { type: "table"; headers: string[]; rows: string[][] };
 
 export type BlogPost = {
   slug: string;

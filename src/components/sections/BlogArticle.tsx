@@ -104,11 +104,14 @@ export function BlogBodySection({ article }: { article: BlogArticleData | null }
           if (section.type === "heading") {
             return <h2 key={index} className="text-xl font-bold text-[#cdfe71] mt-10 mb-3">{content || "Enter heading"}</h2>;
           }
+          if (section.type === "subheading") {
+            return <h3 key={index} className="text-lg font-bold text-white mt-8 mb-2">{content || "Enter heading"}</h3>;
+          }
           if (section.type === "tip") {
             return (
               <div key={index} className="my-6 flex gap-3 bg-[#cdfe71]/5 border border-[#cdfe71]/20 rounded-xl p-4">
                 <span className="text-[#cdfe71] text-lg mt-0.5 flex-shrink-0">💡</span>
-                <p className="text-white/80 text-sm leading-relaxed">{content || "Enter description"}</p>
+                <p className="text-white/80 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: content || "Enter description" }} />
               </div>
             );
           }
@@ -122,13 +125,25 @@ export function BlogBodySection({ article }: { article: BlogArticleData | null }
                       <circle cx="10" cy="10" r="10" fill="currentColor" fillOpacity="0.15" />
                       <path d="M6 10.5l2.5 2.5L14 7.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <span>{item}</span>
+                    <span dangerouslySetInnerHTML={{ __html: item }} />
                   </li>
                 ))}
               </ul>
             );
           }
-          return <p key={index} className="text-white/70 leading-relaxed text-base">{content || "Enter description"}</p>;
+          if (section.type === "table") {
+            const headers: string[] = Array.isArray(section.headers) ? section.headers : [];
+            const rows: string[][] = Array.isArray(section.rows) ? section.rows : [];
+            return (
+              <div key={index} className="my-6 overflow-x-auto rounded-xl border border-white/10">
+                <table className="w-full text-sm text-left">
+                  <thead><tr className="bg-[#1a3358]">{headers.map((h: string, hi: number) => <th key={hi} className="px-4 py-3 text-[#cdfe71] font-semibold">{h}</th>)}</tr></thead>
+                  <tbody>{rows.map((row: string[], ri: number) => <tr key={ri} className="border-t border-white/5">{row.map((cell: string, ci: number) => <td key={ci} className="px-4 py-3 text-white/70">{cell}</td>)}</tr>)}</tbody>
+                </table>
+              </div>
+            );
+          }
+          return <p key={index} className="text-white/70 leading-relaxed text-base" dangerouslySetInnerHTML={{ __html: content || "Enter description" }} />;
         })}
       </div>
     </section>
