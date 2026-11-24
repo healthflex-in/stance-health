@@ -13,7 +13,7 @@
     "author": {
       "name": "Durga Joshi",
       "role": "Lead Musculoskeletal and Sports Physiotherapist",
-      "avatar": "https://www.stance.health/assets/images/team-1.svg"
+      "avatar": "https://stance-development-upload.s3.us-east-1.amazonaws.com/stance-health/images/durga.jpg?_v=1"
     },
     "coverImage": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
     "sections": [
@@ -27,7 +27,7 @@
       },
       {
         "type": "paragraph",
-        "content": "It is most common in adults between 40–60 and affects women more often than men. Recovery is slow, usually many months and sometimes two to three years, but most people do improve, and the right care at the right stage makes the journey far more comfortable. This guide covers frozen shoulder causes, symptoms, stages, treatment and safe exercises, along with when to get assessed."
+        "content": "It is most common in adults between 40-60 and affects women more often than men. Recovery is slow, usually many months and sometimes two to three years, but most people do improve, and the right care at the right stage makes the journey far more comfortable. This guide covers frozen shoulder causes, symptoms, stages, treatment and safe exercises, along with when to get assessed."
       },
       {
         "type": "tip",
@@ -107,17 +107,17 @@
         "rows": [
           [
             "Freezing",
-            "6 weeks–9 months",
+            "6 weeks-9 months",
             "Pain and increasing stiffness"
           ],
           [
             "Frozen",
-            "4–12 months",
+            "4-12 months",
             "Restricted movement"
           ],
           [
             "Thawing",
-            "6 months–2 years or longer",
+            "6 months-2 years or longer",
             "Gradual improvement in mobility"
           ]
         ]

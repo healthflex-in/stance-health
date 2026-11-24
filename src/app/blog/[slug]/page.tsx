@@ -55,7 +55,7 @@ function RichText({ html }: { html: string }) {
   return (
     <span
       dangerouslySetInnerHTML={{ __html: html }}
-      className="[&_a]:text-[#cdfe71] [&_a]:no-underline [&_a:hover]:text-[#cdfe71]/80 [&_a]:transition-colors"
+      className="[&_a]:text-[#cdfe71] [&_a]:no-underline [&_a:hover]:text-[#cdfe71]/80 [&_a]:transition-colors [&_strong]:text-inherit [&_strong]:font-semibold"
     />
   );
 }
@@ -228,9 +228,9 @@ export default async function BlogPostPage({ params }: Props) {
 
           {/* CTA */}
           <div className="mt-16 bg-[#1a3358] rounded-2xl p-8 border border-white/5 hover:border-[#cdfe71]/20 hover:shadow-[0_8px_30px_rgba(205,254,113,0.06)] transition-all duration-300 text-center">
-            <h3 className="text-xl font-bold text-white mb-2">Ready to take the <span className="text-[#cdfe71]">next step</span>?</h3>
+            <h3 className="text-xl font-bold text-white mb-2">Get Your Shoulder Moving Again</h3>
             <p className="text-white/60 text-sm mb-6">
-              Our clinical team is ready to build a personalised plan around your goals.
+              Whether your shoulder is just starting to ache or has been stiff for months, a stage-based plan can save you weeks of guesswork.
             </p>
             <a
               href={`${BOOKING_URL}&utm_campaign=blog_article`}
