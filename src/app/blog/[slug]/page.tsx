@@ -49,21 +49,40 @@ function formatDate(iso: string) {
   });
 }
 
+/** Render inline HTML (links etc.) safely – only <a> tags with href are kept. */
+function RichText({ html }: { html: string }) {
+  if (!html.includes("<")) return <>{html}</>;
+  return (
+    <span
+      dangerouslySetInnerHTML={{ __html: html }}
+      className="[&_a]:text-[#cdfe71] [&_a]:no-underline [&_a:hover]:text-[#cdfe71]/80 [&_a]:transition-colors [&_strong]:text-inherit [&_strong]:font-semibold"
+    />
+  );
+}
+
 function Section({ section }: { section: BlogSection }) {
   switch (section.type) {
     case "heading":
       return (
         <h2 className="text-xl font-bold text-[#cdfe71] mt-10 mb-3">{section.content}</h2>
       );
+    case "subheading":
+      return (
+        <h3 className="text-lg font-bold text-white mt-8 mb-2">{section.content}</h3>
+      );
     case "paragraph":
       return (
-        <p className="text-white/70 leading-relaxed text-base">{section.content}</p>
+        <p className="text-white/70 leading-relaxed text-base">
+          <RichText html={section.content} />
+        </p>
       );
     case "tip":
       return (
         <div className="my-6 flex gap-3 bg-[#cdfe71]/5 border border-[#cdfe71]/20 rounded-xl p-4 hover:border-[#cdfe71]/40 transition-colors duration-300">
           <span className="text-[#cdfe71] text-lg mt-0.5 flex-shrink-0">💡</span>
-          <p className="text-white/80 text-sm leading-relaxed">{section.content}</p>
+          <p className="text-white/80 text-sm leading-relaxed">
+            <RichText html={section.content} />
+          </p>
         </div>
       );
     case "list":
@@ -75,10 +94,33 @@ function Section({ section }: { section: BlogSection }) {
                 <circle cx="10" cy="10" r="10" fill="currentColor" fillOpacity="0.15" />
                 <path d="M6 10.5l2.5 2.5L14 7.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-              <span>{item}</span>
+              <span><RichText html={item} /></span>
             </li>
           ))}
         </ul>
+      );
+    case "table":
+      return (
+        <div className="my-6 overflow-x-auto rounded-xl border border-white/10">
+          <table className="w-full text-sm text-left">
+            <thead>
+              <tr className="bg-[#1a3358]">
+                {section.headers.map((h, i) => (
+                  <th key={i} className="px-4 py-3 text-[#cdfe71] font-semibold">{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {section.rows.map((row, ri) => (
+                <tr key={ri} className="border-t border-white/5 hover:bg-white/[0.02] transition-colors">
+                  {row.map((cell, ci) => (
+                    <td key={ci} className="px-4 py-3 text-white/70">{cell}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       );
   }
 }
@@ -186,9 +228,9 @@ export default async function BlogPostPage({ params }: Props) {
 
           {/* CTA */}
           <div className="mt-16 bg-[#1a3358] rounded-2xl p-8 border border-white/5 hover:border-[#cdfe71]/20 hover:shadow-[0_8px_30px_rgba(205,254,113,0.06)] transition-all duration-300 text-center">
-            <h3 className="text-xl font-bold text-white mb-2">Ready to take the <span className="text-[#cdfe71]">next step</span>?</h3>
+            <h3 className="text-xl font-bold text-white mb-2">Get Your Shoulder Moving Again</h3>
             <p className="text-white/60 text-sm mb-6">
-              Our clinical team is ready to build a personalised plan around your goals.
+              Whether your shoulder is just starting to ache or has been stiff for months, a stage-based plan can save you weeks of guesswork.
             </p>
             <a
               href={`${BOOKING_URL}&utm_campaign=blog_article`}

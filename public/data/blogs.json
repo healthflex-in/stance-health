@@ -1,11 +1,389 @@
 [
   {
+    "slug": "frozen-shoulder-causes-stages-recovery",
+    "title": "Frozen Shoulder Causes, Stages and Recovery: A Physiotherapist’s Guide",
+    "summary": "Learn frozen shoulder causes, symptoms, stages and recovery, plus safe exercises and physio care in Bengaluru.",
+    "publishedAt": "2026-11-17",
+    "readMinutes": 12,
+    "tags": [
+      "Frozen Shoulder",
+      "Shoulder Pain",
+      "Physiotherapy"
+    ],
+    "author": {
+      "name": "Durga Joshi",
+      "role": "Lead Musculoskeletal and Sports Physiotherapist",
+      "avatar": "https://stance-development-upload.s3.us-east-1.amazonaws.com/stance-health/images/durga.jpg?_v=1"
+    },
+    "coverImage": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "Can’t fasten a seatbelt, comb your hair or reach a high shelf without a deep, nagging ache? A shoulder that gets steadily stiffer and sorer over weeks is often more than a muscle strain. It could be frozen shoulder."
+      },
+      {
+        "type": "paragraph",
+        "content": "<a href=\"/conditions/frozen-shoulder\">Frozen shoulder</a>, medically known as <a href=\"https://www.orthoinfo.org/bodypart/shoulder/frozen-shoulder/\" target=\"_blank\" rel=\"noopener noreferrer\">adhesive capsulitis</a>, affects the capsule, the thin layer of connective tissue wrapped around the shoulder joint. The capsule becomes inflamed, thickened and tight, so the joint gradually loses movement and can feel locked in place."
+      },
+      {
+        "type": "paragraph",
+        "content": "It is most common in adults between 40-60 and affects women more often than men. Recovery is slow, usually many months and sometimes two to three years, but most people do improve, and the right care at the right stage makes the journey far more comfortable. This guide covers frozen shoulder causes, symptoms, stages, treatment and safe exercises, along with when to get assessed."
+      },
+      {
+        "type": "tip",
+        "content": "In short: frozen shoulder is a stiff, painful shoulder that moves through freezing, frozen and thawing stages. It is more likely with diabetes or thyroid problems, and it is diagnosed by examining how your shoulder moves. Gentle, stage-matched exercise and physiotherapy help, and most people regain good function over time."
+      },
+      {
+        "type": "heading",
+        "content": "What Causes Frozen Shoulder?"
+      },
+      {
+        "type": "paragraph",
+        "content": "In many people there is no clear trigger. This is called primary frozen shoulder: the capsule becomes inflamed, then scars and tightens, leaving the joint less room to move. Why this starts is still not fully understood."
+      },
+      {
+        "type": "paragraph",
+        "content": "It is not caused by one bad movement, and it is not simply a sign of overuse or a weak shoulder."
+      },
+      {
+        "type": "paragraph",
+        "content": "Secondary frozen shoulder follows something identifiable, such as an injury, surgery or another health condition. The main risk factors are:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Diabetes:</strong> People with <a href=\"https://pubmed.ncbi.nlm.nih.gov/36599641/\" target=\"_blank\" rel=\"noopener noreferrer\">diabetes</a> are several times more likely to develop frozen shoulder and it often lasts longer. Changes in connective tissue are thought to play a part. This is worth knowing in India, where diabetes is common.",
+          "<strong>Thyroid disorders:</strong> Both an underactive and an overactive thyroid are linked with a higher risk.",
+          "<strong>Injury or surgery:</strong> Fractures, dislocations and shoulder or upper-limb surgery can set the stage, particularly when movement is restricted afterwards.",
+          "<strong>Prolonged immobility:</strong> A sling worn longer than needed, or avoiding the arm because it hurts, lets the capsule stiffen. This is why gentle early movement matters once your clinician says it is safe.",
+          "<strong>Age and sex:</strong> Risk is highest between 40 and 60, and women are affected more often.",
+          "<strong>Other conditions:</strong> Heart disease and Parkinson’s disease have also been linked with frozen shoulder."
+        ]
+      },
+      {
+        "type": "heading",
+        "content": "Symptoms: How to Spot Frozen Shoulder Early"
+      },
+      {
+        "type": "paragraph",
+        "content": "Symptoms build gradually. The first sign is often a deep ache in the outer shoulder or upper arm that is worse at night. Common symptoms include:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Persistent <a href=\"/conditions/shoulder-pain\">shoulder pain</a> that can spread into the upper arm.",
+          "Night pain, especially when lying on the affected side.",
+          "Increasing stiffness when reaching overhead, behind your back or across your body.",
+          "Difficulty with everyday tasks such as dressing, combing your hair or driving."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "The hallmark of frozen shoulder is loss of external rotation, which means turning your arm outwards with the elbow tucked into your side. Movement is limited whether you lift the arm yourself or someone else moves it for you. That is what separates it from a rotator cuff problem, where the arm is weak but can usually still be moved passively through full range."
+      },
+      {
+        "type": "heading",
+        "content": "Is It Really Frozen Shoulder?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Diagnosis is mostly clinical. A physiotherapist or doctor tests your active and passive movement and asks about your history, including diabetes and thyroid problems. X-ray or ultrasound is sometimes used to rule out arthritis, calcific tendinitis or a rotator cuff tear. Neck problems can also refer pain into the shoulder, so the neck is checked as well. Getting the diagnosis right matters, because exercises that help frozen shoulder can aggravate other shoulder problems."
+      },
+      {
+        "type": "heading",
+        "content": "The Three Stages of Frozen Shoulder"
+      },
+      {
+        "type": "paragraph",
+        "content": "Frozen shoulder usually moves through <a href=\"https://my.clevelandclinic.org/health/diseases/frozen-shoulder-adhesive-capsulitis\" target=\"_blank\" rel=\"noopener noreferrer\">three overlapping stages</a>: freezing, frozen and thawing. Timelines are approximate and differ from person to person."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Stage",
+          "Approximate duration",
+          "Main symptoms"
+        ],
+        "rows": [
+          [
+            "Freezing",
+            "6 weeks-9 months",
+            "Pain and increasing stiffness"
+          ],
+          [
+            "Frozen",
+            "4-12 months",
+            "Restricted movement"
+          ],
+          [
+            "Thawing",
+            "6 months-2 years or longer",
+            "Gradual improvement in mobility"
+          ]
+        ]
+      },
+      {
+        "type": "subheading",
+        "content": "Stage 1: Freezing (about 6 weeks to 9 months)"
+      },
+      {
+        "type": "paragraph",
+        "content": "This is usually the most painful phase. Pain builds, especially at night and with overhead movement, and the shoulder starts to stiffen. Treatment focuses on settling pain and keeping comfortable movement, with gentle, pain-guided exercises. Aggressive stretching can make this stage worse."
+      },
+      {
+        "type": "subheading",
+        "content": "Stage 2: Frozen (about 4 to 12 months)"
+      },
+      {
+        "type": "paragraph",
+        "content": "Pain often eases, but stiffness takes over. The capsule is tight in every direction, so lifting, rotating and reaching behind you are all restricted. Physiotherapy shifts towards mobility: joint mobilisation, controlled stretching and graded movement, with intensity matched to how irritable the shoulder is."
+      },
+      {
+        "type": "subheading",
+        "content": "Stage 3: Thawing (about 6 months to 2 years or longer)"
+      },
+      {
+        "type": "paragraph",
+        "content": "Movement gradually returns and everyday tasks become easier. Treatment now rebuilds flexibility, strength and confidence so the shoulder works properly again. Strengthening the shoulder blade and rotator cuff muscles usually begins here."
+      },
+      {
+        "type": "heading",
+        "content": "How Long Does Frozen Shoulder Recovery Take?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Overall, frozen shoulder can take several months to two or three years to resolve. Severity, stage, underlying conditions such as diabetes and how you respond to treatment all affect the timeline. Some people have mild stiffness even after pain settles. Rather than watching the calendar, track function: dressing without pain, reaching a shelf, sleeping through the night."
+      },
+      {
+        "type": "tip",
+        "content": "Progress is rarely a straight line, and a sore week does not mean you are back at the start."
+      },
+      {
+        "type": "heading",
+        "content": "Frozen Shoulder Treatment Options"
+      },
+      {
+        "type": "paragraph",
+        "content": "Treatment aims to reduce pain, restore movement and return you to daily activity. The right approach depends on your stage and symptoms."
+      },
+      {
+        "type": "subheading",
+        "content": "Physiotherapy for Frozen Shoulder"
+      },
+      {
+        "type": "paragraph",
+        "content": "A physiotherapist assesses your range of movement, pain levels and daily limitations, then builds a plan that may include:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Gentle mobility exercises.",
+          "Controlled stretching.",
+          "Joint mobilisation.",
+          "Progressive strengthening.",
+          "Advice on sleeping positions and everyday tasks, such as supporting the arm on a pillow at night."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "The guiding rule is simple: be gentle when the shoulder is painful, and progress when stiffness is the main problem. Consistency beats intensity."
+      },
+      {
+        "type": "paragraph",
+        "content": "At a first visit, expect questions about your pain, sleep and daily tasks, a hands-on movement check of both shoulders and a clear plan with realistic timelines."
+      },
+      {
+        "type": "subheading",
+        "content": "Medication and Medical Interventions"
+      },
+      {
+        "type": "paragraph",
+        "content": "A doctor may suggest <a href=\"https://www.nhs.uk/conditions/frozen-shoulder/\" target=\"_blank\" rel=\"noopener noreferrer\">pain relief or anti-inflammatory medicines</a>. A corticosteroid injection can calm pain, particularly in the early stages. Hydrodilatation, where fluid is injected to stretch the capsule, may be considered in some cases. Surgery, such as manipulation under anaesthesia or arthroscopic capsular release, is reserved for people whose symptoms stay severe despite months of non-surgical care. Always make these decisions with a qualified doctor."
+      },
+      {
+        "type": "heading",
+        "content": "Exercises That May Help Frozen Shoulder"
+      },
+      {
+        "type": "paragraph",
+        "content": "Movement helps, but timing matters. Move into a gentle stretch, not sharp pain, and keep sessions short and frequent. Warm the shoulder first, move slowly and breathe normally. Any soreness should settle within about an hour. If it does not, you have done too much."
+      },
+      {
+        "type": "subheading",
+        "content": "Freezing stage (painful)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Pendulum swings:</strong> Lean forward with your good hand on a table and let the affected arm hang. Sway it gently forwards, backwards and in small circles for one to two minutes, a few times a day.",
+          "<strong>Shoulder blade squeezes:</strong> Draw your shoulder blades together, hold for five seconds and relax. Repeat 10 times."
+        ]
+      },
+      {
+        "type": "subheading",
+        "content": "Frozen stage (stiff)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Wall walks:</strong> Face a wall and slowly walk your fingers upwards as far as is comfortable. Repeat 10 times, two to three times a day.",
+          "<strong>Assisted external rotation:</strong> With your elbow tucked in, hold a stick and use your good arm to guide the affected hand outwards. Hold for 10 seconds and repeat 10 times."
+        ]
+      },
+      {
+        "type": "subheading",
+        "content": "Thawing stage (regaining range)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Towel stretch:</strong> Hold a towel behind your back with your good arm above and the affected arm below. Gently pull upwards with the good arm and hold for 10 seconds. Repeat 5 times."
+        ]
+      },
+      {
+        "type": "tip",
+        "content": "These are examples, not a prescription. A physiotherapist can tell you which ones suit your stage."
+      },
+      {
+        "type": "heading",
+        "content": "What Should You Avoid If You Have Frozen Shoulder?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Certain habits can slow recovery. Try to avoid:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Forcing the shoulder through painful movements.",
+          "Aggressive stretching during the painful stage.",
+          "Keeping the shoulder completely still for long periods.",
+          "Lifting heavy objects overhead if they flare symptoms.",
+          "Following random exercise routines without knowing your limits.",
+          "Ignoring persistent pain and increasing stiffness."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Complete rest is generally not recommended unless your clinician advises it. The goal is comfortable movement without irritating the shoulder further."
+      },
+      {
+        "type": "heading",
+        "content": "Easing Everyday Life With a Frozen Shoulder"
+      },
+      {
+        "type": "paragraph",
+        "content": "Small changes make daily life easier while the shoulder recovers. Sleep on your back or on the unaffected side, with a pillow supporting the sore arm. A warm shower or heat pack before exercises can loosen the shoulder. Dress the affected arm first and undress it last, keep frequently used items between waist and chest height, and break overhead tasks into short bursts. Keep using the arm within your comfort range, because gentle everyday movement is part of recovery."
+      },
+      {
+        "type": "heading",
+        "content": "Can Frozen Shoulder Be Prevented?"
+      },
+      {
+        "type": "paragraph",
+        "content": "There is no guaranteed way to prevent it, especially when it appears without a clear cause. Keeping the shoulder moving after an injury or surgery, once your clinician says it is safe, may reduce the risk linked to prolonged immobility. Managing diabetes and thyroid conditions under medical supervision also helps. Regular movement also supports your joint health. If you notice persistent pain or growing stiffness, get advice early rather than waiting for it to worsen."
+      },
+      {
+        "type": "heading",
+        "content": "When Should You See a Physiotherapist?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Consider an assessment if shoulder pain lasts several weeks, movement is becoming restricted, night pain disturbs your sleep or everyday tasks are getting harder. Early assessment confirms whether it is frozen shoulder or something else, and helps you avoid exercises that aggravate it. Do not wait for it to thaw on its own if sleep, work or daily tasks are already affected."
+      },
+      {
+        "type": "tip",
+        "content": "Seek urgent medical attention for sudden severe pain after an injury, visible deformity, sudden weakness, or shoulder discomfort with chest pain."
+      },
+      {
+        "type": "heading",
+        "content": "Get Your Shoulder Moving Again in Bangalore"
+      },
+      {
+        "type": "paragraph",
+        "content": "Frozen shoulder is slow, but it is rarely permanent, and the right plan changes how it feels along the way. At Stance Health, our clinical team starts with a detailed assessment and builds a personalised, stage-based rehabilitation plan around your goals. Whether your shoulder is just starting to ache or has been stiff for months, a stage-based plan can save you weeks of guesswork. Book an assessment to find out where your shoulder is in its recovery."
+      },
+      {
+        "type": "heading",
+        "content": "Frequently Asked Questions"
+      },
+      {
+        "type": "subheading",
+        "content": "What is the main cause of frozen shoulder?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Inflammation and thickening of the capsule around the shoulder joint. Often there is no clear trigger, but diabetes, thyroid disorders, injury, surgery and prolonged immobilisation are recognised risk factors."
+      },
+      {
+        "type": "subheading",
+        "content": "How long does frozen shoulder take to heal?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Anywhere from several months to two or three years, depending on severity, stage, underlying conditions and response to treatment."
+      },
+      {
+        "type": "subheading",
+        "content": "Can physiotherapy help with frozen shoulder?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Yes. Physiotherapy can help manage pain, improve mobility and restore strength through stage-appropriate exercises, stretching and mobilisation."
+      },
+      {
+        "type": "subheading",
+        "content": "Is it safe to exercise with frozen shoulder?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Yes, if the exercises suit your stage. Choose gentle movements when pain is high, avoid aggressive stretching and ask a physiotherapist for guidance."
+      },
+      {
+        "type": "subheading",
+        "content": "Can frozen shoulder happen again?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Recurrence in the same shoulder is uncommon, but some people develop it in the opposite shoulder, particularly when risk factors such as diabetes are present."
+      },
+      {
+        "type": "subheading",
+        "content": "Does frozen shoulder go away on its own?"
+      },
+      {
+        "type": "paragraph",
+        "content": "In most people it gradually improves over time, but this can take a long while and some stiffness may linger. Treatment will not rush the stages, but it can ease pain, protect movement and keep you functioning while the shoulder recovers."
+      },
+      {
+        "type": "subheading",
+        "content": "What is the best sleeping position with frozen shoulder?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Lying on your back, or on the unaffected side, with a pillow supporting the sore arm is usually most comfortable. Avoid lying on the affected shoulder, especially in the painful freezing stage."
+      },
+      {
+        "type": "subheading",
+        "content": "How is frozen shoulder different from a rotator cuff injury?"
+      },
+      {
+        "type": "paragraph",
+        "content": "In frozen shoulder, the joint is stiff whether you move it or someone else does, and turning the arm outwards is especially limited. With a <a href=\"/conditions/rotator-cuff-injury\">rotator cuff problem</a>, the arm is usually weak but can often still be moved passively through full range."
+      }
+    ]
+  },
+  {
     "slug": "acl-rehab-what-to-expect",
     "title": "ACL Rehab: What to Expect at Every Stage of Recovery",
     "summary": "A torn ACL is one of the most feared injuries in sport — but with the right protocol, a full return is not just possible, it's the norm. Here's what your recovery timeline actually looks like.",
     "publishedAt": "2025-04-10",
     "readMinutes": 7,
-    "tags": ["Surgical Rehab", "ACL", "Return to Sport"],
+    "tags": [
+      "Surgical Rehab",
+      "ACL",
+      "Return to Sport"
+    ],
     "author": {
       "name": "Durga Joshi",
       "role": "Lead Musculoskeletal and Sports Physiotherapist",
@@ -65,7 +443,11 @@
     "summary": "You don't need to be an elite runner to benefit from gait analysis. Understanding how you move is the most direct route to faster times, fewer injuries, and more enjoyable miles.",
     "publishedAt": "2025-03-22",
     "readMinutes": 6,
-    "tags": ["Running", "Gait Analysis", "Injury Prevention"],
+    "tags": [
+      "Running",
+      "Gait Analysis",
+      "Injury Prevention"
+    ],
     "author": {
       "name": "Arjun K Raj",
       "role": "Senior Strength and Conditioning Coach",
@@ -127,7 +509,11 @@
     "summary": "Most people assume knee pain means the knee is the problem. More often, it's a symptom of dysfunction elsewhere. Understanding the real source changes everything about how you treat it.",
     "publishedAt": "2025-03-05",
     "readMinutes": 5,
-    "tags": ["Knee Pain", "Injury Management", "Biomechanics"],
+    "tags": [
+      "Knee Pain",
+      "Injury Management",
+      "Biomechanics"
+    ],
     "author": {
       "name": "Sumesh Ashokan",
       "role": "Senior Musculoskeletal and Sports Physiotherapist",
@@ -183,7 +569,11 @@
     "summary": "The evidence is unambiguous: runners who strength train get injured less and run faster. Yet most recreational runners skip it entirely. Here's the case for making it a permanent part of your training week.",
     "publishedAt": "2025-02-18",
     "readMinutes": 6,
-    "tags": ["Running", "Strength Training", "Performance"],
+    "tags": [
+      "Running",
+      "Strength Training",
+      "Performance"
+    ],
     "author": {
       "name": "Arjun K Raj",
       "role": "Senior Strength and Conditioning Coach",
@@ -245,7 +635,11 @@
     "summary": "The cycle of improvement and relapse is the hallmark of poorly managed back pain. Breaking that cycle requires understanding what's actually perpetuating it — not just what's triggering it.",
     "publishedAt": "2025-01-30",
     "readMinutes": 7,
-    "tags": ["Back Pain", "Injury Management", "Rehab"],
+    "tags": [
+      "Back Pain",
+      "Injury Management",
+      "Rehab"
+    ],
     "author": {
       "name": "Durga Joshi",
       "role": "Lead Musculoskeletal and Sports Physiotherapist",
@@ -305,7 +699,11 @@
     "summary": "\"Six weeks and you're good to go\" is one of the most dangerous phrases in sports medicine. Time is a proxy for healing, not a guarantee of readiness. Here's what objective return-to-sport criteria actually look like.",
     "publishedAt": "2025-01-12",
     "readMinutes": 6,
-    "tags": ["Return to Sport", "Performance", "Injury Management"],
+    "tags": [
+      "Return to Sport",
+      "Performance",
+      "Injury Management"
+    ],
     "author": {
       "name": "Sumesh Ashokan",
       "role": "Senior Musculoskeletal and Sports Physiotherapist",
