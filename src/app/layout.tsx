@@ -7,6 +7,7 @@ import TrackingInit from "@/components/TrackingInit";
 import LinkTracker from "@/components/LinkTracker";
 import AnalyticsProvider from "@/components/AnalyticsProvider";
 import ScrollToTop from "@/components/ScrollToTop";
+import HebbalPopup from "@/components/HebbalPopup";
 import LibraryDraftPreview from "@/components/LibraryDraftPreview";
 import { PublishedCustomSections } from "@/components/published/PublishedCustomSections";
 import { PublishedChromeProvider } from "@/components/published/PublishedChrome";
@@ -221,6 +222,10 @@ export default async function RootLayout({
           <PublishedCustomSections />
           <LibraryDraftPreview />
         </PublishedChromeProvider>
+        {/* Hebbal centre launch waitlist popup – appears 3 s after load */}
+        <Suspense fallback={null}>
+          <HebbalPopup />
+        </Suspense>
       </body>
     </html>
   );
